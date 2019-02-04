@@ -1,28 +1,31 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import Header from './components/Header'
+// import logo from './logo.svg';
+import './App.scss';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+    state = {
+        showMsg: false
+    }
+    showMsg = (objVal) => {
+        this.setState({
+            showMsg: true,
+            newObj: objVal
+        })
+        console.log(this.state);
+    };
+
+    render() {
+        return (
+            <div className="App">
+                <header className="App-header">
+                    {/*<img src={logo} className="App-logo" alt="logo"/>*/}
+                    {this.state.showMsg ? <h1>Hello, React February</h1> : null}
+                    <button onClick={this.showMsg}>Show text</button>
+                </header>
+            </div>
+        );
+    }
 }
 
 export default App;
