@@ -6,7 +6,7 @@ export default class Header extends Component {
     render() {
         return (
             <div>
-                <div><img
+                <div><img className="logotype-nav-top"
                     src="http://www.logosvectorfree.com/wp-content/uploads/2018/02/Gmail-Logo-Design-Vector-Free-Download.png"
                     alt="logo-gmail"/></div>
                 <div><SearchBar/></div>
