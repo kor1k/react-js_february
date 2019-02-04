@@ -4,12 +4,10 @@ import App from "../../App";
 export default class Menu extends Component {
     render() {
         return (
-            <Fragment>
+            <div>
                 Menu
-            </Fragment>
+            </div>
         )
     }
 
 }
-
-export default App

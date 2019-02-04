@@ -9,7 +9,4 @@ export default class MailList extends Component {
             </Fragment>
         )
     }
-
 }
-
-export default App
