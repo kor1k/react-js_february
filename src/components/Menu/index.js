@@ -1,18 +1,17 @@
-import React, {Component, Fragment} from 'react'
+import React, {Component} from 'react'
 import App from "../../App";
 
 export default class Menu extends Component {
     render() {
         return (
             <div>
-                <ul>
-                    <li>Inbox</li>
-                    <li>Drafts</li>
-                    <li>Send</li>
-                    <li>Spam</li>
+                <ul className="ul-menu-options">
+                    <li  className="ul-menu-mail-option">Входящие</li>
+                    <li  className="ul-menu-mail-option">Отправленные</li>
+                    <li  className="ul-menu-mail-option">Помеченные</li>
+                    <li  className="ul-menu-mail-option">Важные</li>
                 </ul>
             </div>
         )
     }
-
 }

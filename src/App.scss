@@ -1,3 +1,8 @@
+body {
+  text-decoration: none;
+  list-style: none;
+}
+
 .App {
   text-align: center;
 }
@@ -17,4 +22,20 @@
   margin-left: 3rem;
   width: 200px;
   height: 120px;
+}
+
+.ul-menu-options {
+  cursor: pointer;
+  list-style-type: none;
+  font-size: 30px;
+}
+
+.ul-menu-mail-option {
+  display: block;
+  color: darkslategray;
+  transition: .4s;
+}
+
+.ul-menu-mail-option:hover {
+  font-size: 35px;
 }
