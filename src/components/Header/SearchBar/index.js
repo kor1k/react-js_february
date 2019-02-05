@@ -4,8 +4,8 @@ export default class SearchBar extends Component {
     render() {
         return (
             <Fragment>
-                <input type="text" className="search-inp"/>
-                <button>Search</button>
+                <input type="text" className="search-input-header"/>
+                <button className="search-button-header">Search</button>
             </Fragment>
         )
     }

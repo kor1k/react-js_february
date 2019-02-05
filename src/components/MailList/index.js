@@ -4,9 +4,9 @@ import App from "../../App";
 export default class MailList extends Component {
     render() {
         return (
-            <Fragment>
+            <div className="mail-list-holder">
                 MailList
-            </Fragment>
+            </div>
         )
     }
 }

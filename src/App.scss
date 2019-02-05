@@ -18,24 +18,66 @@ body {
   color: white;
 }
 
+.header-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.search-button-header {
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 70px;
+  font-size: 17px;
+  margin-left: 1rem;
+  height: 46px;
+}
+
+.search-input-header {
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: lightgray;
+  font-size: 21px;
+  padding-left: 2rem;
+  width: 300px;
+  height: 40px;
+}
+
 .logotype-nav-top {
+  display: flex;
+  align-items: center;
   margin-left: 3rem;
-  width: 200px;
-  height: 120px;
+  width: 10rem;
+  height: 7rem;
 }
 
 .ul-menu-options {
-  cursor: pointer;
   list-style-type: none;
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 .ul-menu-mail-option {
-  display: block;
+  margin-bottom: 2.5rem;
   color: darkslategray;
-  transition: .4s;
+  transition: .2s;
 }
 
 .ul-menu-mail-option:hover {
   font-size: 35px;
+}
+
+.user-menu-title {
+  font-size: 22px;
+  margin-right: 40px;
+  background-color: lightgray;
+}
+
+.mail-list-holder {
+  position: absolute;
+  top: 13%;
+  left: 30%;
+  font-size: 50px;
+  font-weight: 600;
+  color: red;
 }

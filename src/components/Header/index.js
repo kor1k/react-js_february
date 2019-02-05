@@ -5,7 +5,7 @@ import SearchBar from './SearchBar'
 export default class Header extends Component {
     render() {
         return (
-            <div>
+            <div className="header-holder">
                 <div>
                     <a href="#">
                     <img className="logotype-nav-top"
@@ -13,7 +13,7 @@ export default class Header extends Component {
                     alt="logo-gmail"/>
                     </a></div>
                 <div><SearchBar/></div>
-                <div>User menu</div>
+                <div className="user-menu-title">User menu</div>
             </div>
         )
     }
