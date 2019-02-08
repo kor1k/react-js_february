@@ -5,7 +5,9 @@ export default class NewMailForm extends Component {
         return (
             <Fragment>
                 <input type="text" placeholder='To...'/>
-                <textarea placeholder="Your message..."></textarea>
+                <textarea placeholder="Your message...">
+
+                </textarea>
                 <button>Send</button>
             </Fragment>
         )
