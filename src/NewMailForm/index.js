@@ -9,6 +9,7 @@ export default class NewMailForm extends Component {
 
                 </textarea>
                 <button>Send</button>
+
             </Fragment>
         )
     }
